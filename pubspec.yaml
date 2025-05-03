@@ -1,0 +1,30 @@
+name: alumniconnect
+description: A Flutter project for AlumniConnect.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.6
+  http: ^1.2.2
+  file_picker: ^8.1.2
+  material_design_icons_flutter: ^6.0.7096
+  google_fonts: ^5.1.0
+  http_parser: ^4.0.2
+  intl: ^0.19.0
+  url_launcher: ^6.1.10 # Add the intl package
+  cached_network_image: ^3.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  # No assets or fonts sections - use system fonts
